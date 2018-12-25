@@ -1,0 +1,1062 @@
+Easy WP SMTP debug log file
+
+CLIENT -> SERVER: EHLO whit025-3312
+CLIENT -> SERVER: AUTH LOGIN
+CLIENT -> SERVER: c3RhcnRzaG9wa3JAZ21haWwuY29t
+CLIENT -> SERVER: U2F2aW5nODUh
+CLIENT -> SERVER: MAIL FROM:<startshopkr@gmail.com>
+CLIENT -> SERVER: RCPT TO:<runawaymooon@naver.com>
+CLIENT -> SERVER: DATA
+CLIENT -> SERVER: Date: Sat, 10 Nov 2018 13:56:28 +0000
+CLIENT -> SERVER: To: yoochan <runawaymooon@naver.com>
+CLIENT -> SERVER: From: Root User <startshopkr@gmail.com>
+CLIENT -> SERVER: Reply-To: =?UTF-8?B?7Iqk7YOA7Yq47IO1?= <shoppd@shoppd.kr>, Root User <startshopkr@gmail.com>
+CLIENT -> SERVER: Subject: =?UTF-8?Q?[=EC=8A=A4=ED=83=80=ED=8A=B8=EC=83=B5]_Activate_your_account?=
+CLIENT -> SERVER: Message-ID: <7783a938754b09a37587e290e85b8479@whit025-3312>
+CLIENT -> SERVER: X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+CLIENT -> SERVER: X-BuddyPress: 3.2.0
+CLIENT -> SERVER: X-BuddyPress-Type: core-user-registration
+CLIENT -> SERVER: MIME-Version: 1.0
+CLIENT -> SERVER: Content-Type: multipart/alternative;
+CLIENT -> SERVER: 	boundary="b1_7783a938754b09a37587e290e85b8479"
+CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+CLIENT -> SERVER: 
+CLIENT -> SERVER: This is a multi-part message in MIME format.
+CLIENT -> SERVER: 
+CLIENT -> SERVER: --b1_7783a938754b09a37587e290e85b8479
+CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+CLIENT -> SERVER: 
+CLIENT -> SERVER: Thanks for registering!
+CLIENT -> SERVER: 
+CLIENT -> SERVER: To complete the activation of your account, go to the following link and click on the 'Activate' button: https://shoppd.kr/%ed%99%9c%ec%84%b1%ed%99%94/GnBrWV6hoEhteRw4rOmY4jUhxIEXRepj/
+CLIENT -> SERVER: 
+CLIENT -> SERVER: If the 'Activation Key' field is empty, copy and paste the following into the field - GnBrWV6hoEhteRw4rOmY4jUhxIEXRepj
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: --b1_7783a938754b09a37587e290e85b8479
+CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+CLIENT -> SERVER: 
+CLIENT -> SERVER: <!DOCTYPE html>
+CLIENT -> SERVER: <html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+CLIENT -> SERVER: <head>
+CLIENT -> SERVER: 	<meta charset="UTF-8">
+CLIENT -> SERVER: 	<meta name="viewport" content="width=device-width"> <!-- Forcing initial-scale shouldn't be necessary -->
+CLIENT -> SERVER: 	<meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Use the latest (edge) version of IE rendering engine -->
+CLIENT -> SERVER: 	<meta name="x-apple-disable-message-reformatting">  <!-- Disable auto-scale in iOS 10 Mail entirely -->
+CLIENT -> SERVER: 	<title></title> <!-- The title tag shows in email notifications, like Android 4.4. -->
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 	<!-- CSS Reset -->
+CLIENT -> SERVER: 	<style type="text/css">
+CLIENT -> SERVER: 		/* What it does: Remove spaces around the email design added by some email clients. */
+CLIENT -> SERVER: 		/* Beware: It can remove the padding / margin and add a background color to the compose a reply window. */
+CLIENT -> SERVER: 		html,
+CLIENT -> SERVER: 		body {
+CLIENT -> SERVER: 			Margin: 0 !important;
+CLIENT -> SERVER: 			padding: 0 !important;
+CLIENT -> SERVER: 			height: 100% !important;
+CLIENT -> SERVER: 			width: 100% !important;
+CLIENT -> SERVER: 		}
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 		/* What it does: Stops email clients resizing small text. */
+CLIENT -> SERVER: 		* {
+CLIENT -> SERVER: 			-ms-text-size-adjust: 100%;
+CLIENT -> SERVER: 			-webkit-text-size-adjust: 100%;
+CLIENT -> SERVER: 		}
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 		/* What is does: Centers email on Android 4.4 */
+CLIENT -> SERVER: 		div[style*="margin: 16px 0"] {
+CLIENT -> SERVER: 			margin: 0 !important;
+CLIENT -> SERVER: 		}
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 		/* What it does: Stops Outlook from adding extra spacing to tables. */
+CLIENT -> SERVER: 		table,
+CLIENT -> SERVER: 		td {
+CLIENT -> SERVER: 			mso-table-lspace: 0pt !important;
+CLIENT -> SERVER: 			mso-table-rspace: 0pt !important;
+CLIENT -> SERVER: 		}
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 		/* What it does: Fixes webkit padding issue. Fix for Yahoo mail table alignment bug. Applies table-layout to the first 2 tables then removes for anything nested deeper. */
+CLIENT -> SERVER: 		table {
+CLIENT -> SERVER: 			border-spacing: 0 !important;
+CLIENT -> SERVER: 			border-collapse: collapse !important;
+CLIENT -> SERVER: 			table-layout: fixed !important;
+CLIENT -> SERVER: 			Margin: 0 auto !important;
+CLIENT -> SERVER: 		}
+CLIENT -> SERVER: 		table table table {
+CLIENT -> SERVER: 			table-layout: auto;
+CLIENT -> SERVER: 		}
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 		/* What it does: Uses a better rendering method when resizing images in IE. */
+CLIENT -> SERVER: 		/* & manages img max widths to ensure content body images don't exceed template width. */
+CLIENT -> SERVER: 		img {
+CLIENT -> SERVER: 			-ms-interpolation-mode:bicubic;
+CLIENT -> SERVER: 			height: auto;
+CLIENT -> SERVER: 			max-width: 100%;
+CLIENT -> SERVER: 		}
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 		/* What it does: A work-around for email clients meddling in triggered links. */
+CLIENT -> SERVER: 		*[x-apple-data-detectors],  /* iOS */
+CLIENT -> SERVER: 		.x-gmail-data-detectors,    /* Gmail */
+CLIENT -> SERVER: 		.x-gmail-data-detectors *,
+CLIENT -> SERVER: 		.aBn {
+CLIENT -> SERVER: 			border-bottom: 0 !important;
+CLIENT -> SERVER: 			cursor: default !important;
+CLIENT -> SERVER: 			color: inherit !important;
+CLIENT -> SERVER: 			text-decoration: none !important;
+CLIENT -> SERVER: 			font-size: inherit !important;
+CLIENT -> SERVER: 			font-family: inherit !important;
+CLIENT -> SERVER: 			font-weight: inherit !important;
+CLIENT -> SERVER: 			line-height: inherit !important;
+CLIENT -> SERVER: 		}
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 		/* What it does: Prevents Gmail from displaying an download button on large, non-linked images. */
+CLIENT -> SERVER: 		.a6S {
+CLIENT -> SERVER: 			display: none !important;
+CLIENT -> SERVER: 			opacity: 0.01 !important;
+CLIENT -> SERVER: 		}
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 		/* If the above doesn't work, add a .g-img class to any image in question. */
+CLIENT -> SERVER: 			img.g-img + div {
+CLIENT -> SERVER: 			display: none !important;
+CLIENT -> SERVER: 		}
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 		/* What it does: Prevents underlining the button text in Windows 10 */
+CLIENT -> SERVER: 		.button-link {
+CLIENT -> SERVER: 			text-decoration: none !important;
+CLIENT -> SERVER: 		}
+CLIENT -> SERVER: 	</style>
+CLIENT -> SERVER: 
+CLIENT -> SERVER: </head>
+CLIENT -> SERVER: <body class="email_bg" width="100%" bgcolor="#F7F3F0" style="margin: 0; mso-line-height-rule: exactly;">
+CLIENT -> SERVER: <table cellpadding="0" cellspacing="0" border="0" height="100%" width="100%" bgcolor="#F7F3F0" style="border-collapse:collapse;" class="email_bg"><tr><td valign="top">
+CLIENT -> SERVER: 	<center style="width: 100%; text-align: left;">
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 		<!-- Visually Hidden Preheader Text : BEGIN -->
+CLIENT -> SERVER: 		<div style="display: none; font-size: 1px; line-height: 1px; max-height: 0px; max-width: 0px; opacity: 0; overflow: hidden; mso-hide: all; font-family: sans-serif;">
+CLIENT -> SERVER: 			
+CLIENT -> SERVER: 		</div>
+CLIENT -> SERVER: 		<!-- Visually Hidden Preheader Text : END -->
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 		<div style="max-width: 600px; margin: auto;" class="email-container">
+CLIENT -> SERVER: 			<!--[if mso]>
+CLIENT -> SERVER: 			<table role="presentation" cellspacing="0" cellpadding="0" border="0" width="600" align="center">
+CLIENT -> SERVER: 			<tr>
+CLIENT -> SERVER: 			<td>
+CLIENT -> SERVER: 			<![endif]-->
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 			<!-- Email Header : BEGIN -->
+CLIENT -> SERVER: 			<table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" width="100%" style="max-width: 600px; border-top: 7px solid #D84800" bgcolor="#F7F3F0" class="header_bg">
+CLIENT -> SERVER: 				<tr>
+CLIENT -> SERVER: 					<td style="text-align: center; padding: 15px 0; font-family: sans-serif; mso-height-rule: exactly; font-weight: bold; color: #000000; font-size: 30px" class="header_text_color header_text_size">
+CLIENT -> SERVER: 						스타트샵					</td>
+CLIENT -> SERVER: 				</tr>
+CLIENT -> SERVER: 			</table>
+CLIENT -> SERVER: 			<!-- Email Header : END -->
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 			<!-- Email Body : BEGIN -->
+CLIENT -> SERVER: 			<table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" bgcolor="#FFFFFF" width="100%" style="max-width: 600px; border-radius: 5px;" class="body_bg">
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 				<!-- 1 Column Text : BEGIN -->
+CLIENT -> SERVER: 				<tr>
+CLIENT -> SERVER: 					<td>
+CLIENT -> SERVER: 						<table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+CLIENT -> SERVER: 							<tr>
+CLIENT -> SERVER: 								<td style="padding: 20px; font-family: sans-serif; mso-height-rule: exactly; line-height: 24px; color: #555555; font-size: 15px" class="body_text_color body_text_size">
+CLIENT -> SERVER: 									<span style="font-weight: bold; font-size: 20px" class="welcome">Hi yoochan,</span>
+CLIENT -> SERVER: 									<hr color="#F7F3F0"><br>
+CLIENT -> SERVER: 									<p>Thanks for registering!</p>
+CLIENT -> SERVER: <p>To complete the activation of your account, go to the following link and click on the <strong>Activate</strong> button:<br />
+CLIENT -> SERVER: <a style="color: #D84800;" href="https://shoppd.kr/%ed%99%9c%ec%84%b1%ed%99%94/GnBrWV6hoEhteRw4rOmY4jUhxIEXRepj/">https://shoppd.kr/%ed%99%9c%ec%84%b1%ed%99%94/GnBrWV6hoEhteRw4rOmY4jUhxIEXRepj/</a></p>
+CLIENT -> SERVER: <p>If the 'Activation Key' field is empty, copy and paste the following into the field - GnBrWV6hoEhteRw4rOmY4jUhxIEXRepj</p>
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 								</td>
+CLIENT -> SERVER: 							</tr>
+CLIENT -> SERVER: 						</table>
+CLIENT -> SERVER: 					</td>
+CLIENT -> SERVER: 				</tr>
+CLIENT -> SERVER: 				<!-- 1 Column Text : BEGIN -->
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 			</table>
+CLIENT -> SERVER: 			<!-- Email Body : END -->
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 			<!-- Email Footer : BEGIN -->
+CLIENT -> SERVER: 			<br>
+CLIENT -> SERVER: 			<table role="presentation" cellspacing="0" cellpadding="0" border="0" align="left" width="100%" style="max-width: 600px; border-radius: 5px;" bgcolor="#F7F3F0" class="footer_bg">
+CLIENT -> SERVER: 				<tr>
+CLIENT -> SERVER: 					<td style="padding: 20px; width: 100%; font-size: 12px; font-family: sans-serif; mso-height-rule: exactly; line-height: 19px; text-align: left; color: #525252;" class="footer_text_color footer_text_size">
+CLIENT -> SERVER: 						
+CLIENT -> SERVER: 						<span class="footer_text">&copy; 2018 스타트샵</span>
+CLIENT -> SERVER: 						<br><br>
+CLIENT -> SERVER: 						<a href="https://shoppd.kr/%ed%9a%8c%ec%9b%90/yoochan/settings/notifications/" style="color: #D84800;text-decoration: underline;">unsubscribe</a>
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 											</td>
+CLIENT -> SERVER: 				</tr>
+CLIENT -> SERVER: 			</table>
+CLIENT -> SERVER: 			<!-- Email Footer : END -->
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 			<!--[if mso]>
+CLIENT -> SERVER: 			</td>
+CLIENT -> SERVER: 			</tr>
+CLIENT -> SERVER: 			</table>
+CLIENT -> SERVER: 			<![endif]-->
+CLIENT -> SERVER: 		</div>
+CLIENT -> SERVER: 	</center>
+CLIENT -> SERVER: </td></tr></table>
+CLIENT -> SERVER: </body>
+CLIENT -> SERVER: </html>
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: --b1_7783a938754b09a37587e290e85b8479--
+CLIENT -> SERVER: 
+CLIENT -> SERVER: .
+CLIENT -> SERVER: QUIT
+CLIENT -> SERVER: EHLO whit025-3312
+CLIENT -> SERVER: AUTH LOGIN
+CLIENT -> SERVER: c3RhcnRzaG9wa3JAZ21haWwuY29t
+CLIENT -> SERVER: U2F2aW5nODUh
+CLIENT -> SERVER: MAIL FROM:<startshopkr@gmail.com>
+CLIENT -> SERVER: RCPT TO:<runawaymooon@naver.com>
+CLIENT -> SERVER: DATA
+CLIENT -> SERVER: Date: Sat, 10 Nov 2018 14:01:36 +0000
+CLIENT -> SERVER: To: yoochan <runawaymooon@naver.com>
+CLIENT -> SERVER: From: Root User <startshopkr@gmail.com>
+CLIENT -> SERVER: Reply-To: =?UTF-8?B?7Iqk7YOA7Yq47IO1?= <shoppd@shoppd.kr>, Root User <startshopkr@gmail.com>
+CLIENT -> SERVER: Subject: =?UTF-8?Q?[=EC=8A=A4=ED=83=80=ED=8A=B8=EC=83=B5]_Activate_your_account?=
+CLIENT -> SERVER: Message-ID: <e89505a32d3daf716db14edbdcb919e9@whit025-3312>
+CLIENT -> SERVER: X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+CLIENT -> SERVER: X-BuddyPress: 3.2.0
+CLIENT -> SERVER: X-BuddyPress-Type: core-user-registration
+CLIENT -> SERVER: MIME-Version: 1.0
+CLIENT -> SERVER: Content-Type: multipart/alternative;
+CLIENT -> SERVER: 	boundary="b1_e89505a32d3daf716db14edbdcb919e9"
+CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+CLIENT -> SERVER: 
+CLIENT -> SERVER: This is a multi-part message in MIME format.
+CLIENT -> SERVER: 
+CLIENT -> SERVER: --b1_e89505a32d3daf716db14edbdcb919e9
+CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+CLIENT -> SERVER: 
+CLIENT -> SERVER: Thanks for registering!
+CLIENT -> SERVER: 
+CLIENT -> SERVER: To complete the activation of your account, go to the following link and click on the 'Activate' button: https://shoppd.kr/%ed%99%9c%ec%84%b1%ed%99%94/GnBrWV6hoEhteRw4rOmY4jUhxIEXRepj/
+CLIENT -> SERVER: 
+CLIENT -> SERVER: If the 'Activation Key' field is empty, copy and paste the following into the field - GnBrWV6hoEhteRw4rOmY4jUhxIEXRepj
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: --b1_e89505a32d3daf716db14edbdcb919e9
+CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+CLIENT -> SERVER: 
+CLIENT -> SERVER: <!DOCTYPE html>
+CLIENT -> SERVER: <html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+CLIENT -> SERVER: <head>
+CLIENT -> SERVER: 	<meta charset="UTF-8">
+CLIENT -> SERVER: 	<meta name="viewport" content="width=device-width"> <!-- Forcing initial-scale shouldn't be necessary -->
+CLIENT -> SERVER: 	<meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Use the latest (edge) version of IE rendering engine -->
+CLIENT -> SERVER: 	<meta name="x-apple-disable-message-reformatting">  <!-- Disable auto-scale in iOS 10 Mail entirely -->
+CLIENT -> SERVER: 	<title></title> <!-- The title tag shows in email notifications, like Android 4.4. -->
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 	<!-- CSS Reset -->
+CLIENT -> SERVER: 	<style type="text/css">
+CLIENT -> SERVER: 		/* What it does: Remove spaces around the email design added by some email clients. */
+CLIENT -> SERVER: 		/* Beware: It can remove the padding / margin and add a background color to the compose a reply window. */
+CLIENT -> SERVER: 		html,
+CLIENT -> SERVER: 		body {
+CLIENT -> SERVER: 			Margin: 0 !important;
+CLIENT -> SERVER: 			padding: 0 !important;
+CLIENT -> SERVER: 			height: 100% !important;
+CLIENT -> SERVER: 			width: 100% !important;
+CLIENT -> SERVER: 		}
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 		/* What it does: Stops email clients resizing small text. */
+CLIENT -> SERVER: 		* {
+CLIENT -> SERVER: 			-ms-text-size-adjust: 100%;
+CLIENT -> SERVER: 			-webkit-text-size-adjust: 100%;
+CLIENT -> SERVER: 		}
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 		/* What is does: Centers email on Android 4.4 */
+CLIENT -> SERVER: 		div[style*="margin: 16px 0"] {
+CLIENT -> SERVER: 			margin: 0 !important;
+CLIENT -> SERVER: 		}
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 		/* What it does: Stops Outlook from adding extra spacing to tables. */
+CLIENT -> SERVER: 		table,
+CLIENT -> SERVER: 		td {
+CLIENT -> SERVER: 			mso-table-lspace: 0pt !important;
+CLIENT -> SERVER: 			mso-table-rspace: 0pt !important;
+CLIENT -> SERVER: 		}
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 		/* What it does: Fixes webkit padding issue. Fix for Yahoo mail table alignment bug. Applies table-layout to the first 2 tables then removes for anything nested deeper. */
+CLIENT -> SERVER: 		table {
+CLIENT -> SERVER: 			border-spacing: 0 !important;
+CLIENT -> SERVER: 			border-collapse: collapse !important;
+CLIENT -> SERVER: 			table-layout: fixed !important;
+CLIENT -> SERVER: 			Margin: 0 auto !important;
+CLIENT -> SERVER: 		}
+CLIENT -> SERVER: 		table table table {
+CLIENT -> SERVER: 			table-layout: auto;
+CLIENT -> SERVER: 		}
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 		/* What it does: Uses a better rendering method when resizing images in IE. */
+CLIENT -> SERVER: 		/* & manages img max widths to ensure content body images don't exceed template width. */
+CLIENT -> SERVER: 		img {
+CLIENT -> SERVER: 			-ms-interpolation-mode:bicubic;
+CLIENT -> SERVER: 			height: auto;
+CLIENT -> SERVER: 			max-width: 100%;
+CLIENT -> SERVER: 		}
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 		/* What it does: A work-around for email clients meddling in triggered links. */
+CLIENT -> SERVER: 		*[x-apple-data-detectors],  /* iOS */
+CLIENT -> SERVER: 		.x-gmail-data-detectors,    /* Gmail */
+CLIENT -> SERVER: 		.x-gmail-data-detectors *,
+CLIENT -> SERVER: 		.aBn {
+CLIENT -> SERVER: 			border-bottom: 0 !important;
+CLIENT -> SERVER: 			cursor: default !important;
+CLIENT -> SERVER: 			color: inherit !important;
+CLIENT -> SERVER: 			text-decoration: none !important;
+CLIENT -> SERVER: 			font-size: inherit !important;
+CLIENT -> SERVER: 			font-family: inherit !important;
+CLIENT -> SERVER: 			font-weight: inherit !important;
+CLIENT -> SERVER: 			line-height: inherit !important;
+CLIENT -> SERVER: 		}
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 		/* What it does: Prevents Gmail from displaying an download button on large, non-linked images. */
+CLIENT -> SERVER: 		.a6S {
+CLIENT -> SERVER: 			display: none !important;
+CLIENT -> SERVER: 			opacity: 0.01 !important;
+CLIENT -> SERVER: 		}
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 		/* If the above doesn't work, add a .g-img class to any image in question. */
+CLIENT -> SERVER: 			img.g-img + div {
+CLIENT -> SERVER: 			display: none !important;
+CLIENT -> SERVER: 		}
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 		/* What it does: Prevents underlining the button text in Windows 10 */
+CLIENT -> SERVER: 		.button-link {
+CLIENT -> SERVER: 			text-decoration: none !important;
+CLIENT -> SERVER: 		}
+CLIENT -> SERVER: 	</style>
+CLIENT -> SERVER: 
+CLIENT -> SERVER: </head>
+CLIENT -> SERVER: <body class="email_bg" width="100%" bgcolor="#F7F3F0" style="margin: 0; mso-line-height-rule: exactly;">
+CLIENT -> SERVER: <table cellpadding="0" cellspacing="0" border="0" height="100%" width="100%" bgcolor="#F7F3F0" style="border-collapse:collapse;" class="email_bg"><tr><td valign="top">
+CLIENT -> SERVER: 	<center style="width: 100%; text-align: left;">
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 		<!-- Visually Hidden Preheader Text : BEGIN -->
+CLIENT -> SERVER: 		<div style="display: none; font-size: 1px; line-height: 1px; max-height: 0px; max-width: 0px; opacity: 0; overflow: hidden; mso-hide: all; font-family: sans-serif;">
+CLIENT -> SERVER: 			
+CLIENT -> SERVER: 		</div>
+CLIENT -> SERVER: 		<!-- Visually Hidden Preheader Text : END -->
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 		<div style="max-width: 600px; margin: auto;" class="email-container">
+CLIENT -> SERVER: 			<!--[if mso]>
+CLIENT -> SERVER: 			<table role="presentation" cellspacing="0" cellpadding="0" border="0" width="600" align="center">
+CLIENT -> SERVER: 			<tr>
+CLIENT -> SERVER: 			<td>
+CLIENT -> SERVER: 			<![endif]-->
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 			<!-- Email Header : BEGIN -->
+CLIENT -> SERVER: 			<table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" width="100%" style="max-width: 600px; border-top: 7px solid #D84800" bgcolor="#F7F3F0" class="header_bg">
+CLIENT -> SERVER: 				<tr>
+CLIENT -> SERVER: 					<td style="text-align: center; padding: 15px 0; font-family: sans-serif; mso-height-rule: exactly; font-weight: bold; color: #000000; font-size: 30px" class="header_text_color header_text_size">
+CLIENT -> SERVER: 						스타트샵					</td>
+CLIENT -> SERVER: 				</tr>
+CLIENT -> SERVER: 			</table>
+CLIENT -> SERVER: 			<!-- Email Header : END -->
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 			<!-- Email Body : BEGIN -->
+CLIENT -> SERVER: 			<table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" bgcolor="#FFFFFF" width="100%" style="max-width: 600px; border-radius: 5px;" class="body_bg">
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 				<!-- 1 Column Text : BEGIN -->
+CLIENT -> SERVER: 				<tr>
+CLIENT -> SERVER: 					<td>
+CLIENT -> SERVER: 						<table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+CLIENT -> SERVER: 							<tr>
+CLIENT -> SERVER: 								<td style="padding: 20px; font-family: sans-serif; mso-height-rule: exactly; line-height: 24px; color: #555555; font-size: 15px" class="body_text_color body_text_size">
+CLIENT -> SERVER: 									<span style="font-weight: bold; font-size: 20px" class="welcome">Hi yoochan,</span>
+CLIENT -> SERVER: 									<hr color="#F7F3F0"><br>
+CLIENT -> SERVER: 									<p>Thanks for registering!</p>
+CLIENT -> SERVER: <p>To complete the activation of your account, go to the following link and click on the <strong>Activate</strong> button:<br />
+CLIENT -> SERVER: <a style="color: #D84800;" href="https://shoppd.kr/%ed%99%9c%ec%84%b1%ed%99%94/GnBrWV6hoEhteRw4rOmY4jUhxIEXRepj/">https://shoppd.kr/%ed%99%9c%ec%84%b1%ed%99%94/GnBrWV6hoEhteRw4rOmY4jUhxIEXRepj/</a></p>
+CLIENT -> SERVER: <p>If the 'Activation Key' field is empty, copy and paste the following into the field - GnBrWV6hoEhteRw4rOmY4jUhxIEXRepj</p>
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 								</td>
+CLIENT -> SERVER: 							</tr>
+CLIENT -> SERVER: 						</table>
+CLIENT -> SERVER: 					</td>
+CLIENT -> SERVER: 				</tr>
+CLIENT -> SERVER: 				<!-- 1 Column Text : BEGIN -->
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 			</table>
+CLIENT -> SERVER: 			<!-- Email Body : END -->
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 			<!-- Email Footer : BEGIN -->
+CLIENT -> SERVER: 			<br>
+CLIENT -> SERVER: 			<table role="presentation" cellspacing="0" cellpadding="0" border="0" align="left" width="100%" style="max-width: 600px; border-radius: 5px;" bgcolor="#F7F3F0" class="footer_bg">
+CLIENT -> SERVER: 				<tr>
+CLIENT -> SERVER: 					<td style="padding: 20px; width: 100%; font-size: 12px; font-family: sans-serif; mso-height-rule: exactly; line-height: 19px; text-align: left; color: #525252;" class="footer_text_color footer_text_size">
+CLIENT -> SERVER: 						
+CLIENT -> SERVER: 						<span class="footer_text">&copy; 2018 스타트샵</span>
+CLIENT -> SERVER: 						<br><br>
+CLIENT -> SERVER: 						<a href="https://shoppd.kr/%ed%9a%8c%ec%9b%90/yoochan/settings/notifications/" style="color: #D84800;text-decoration: underline;">unsubscribe</a>
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 											</td>
+CLIENT -> SERVER: 				</tr>
+CLIENT -> SERVER: 			</table>
+CLIENT -> SERVER: 			<!-- Email Footer : END -->
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 			<!--[if mso]>
+CLIENT -> SERVER: 			</td>
+CLIENT -> SERVER: 			</tr>
+CLIENT -> SERVER: 			</table>
+CLIENT -> SERVER: 			<![endif]-->
+CLIENT -> SERVER: 		</div>
+CLIENT -> SERVER: 	</center>
+CLIENT -> SERVER: </td></tr></table>
+CLIENT -> SERVER: </body>
+CLIENT -> SERVER: </html>
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: --b1_e89505a32d3daf716db14edbdcb919e9--
+CLIENT -> SERVER: 
+CLIENT -> SERVER: .
+CLIENT -> SERVER: QUIT
+CLIENT -> SERVER: EHLO whit025-3312
+CLIENT -> SERVER: AUTH LOGIN
+CLIENT -> SERVER: c3RhcnRzaG9wa3JAZ21haWwuY29t
+CLIENT -> SERVER: U2F2aW5nODUh
+CLIENT -> SERVER: MAIL FROM:<startshopkr@gmail.com>
+CLIENT -> SERVER: RCPT TO:<runawaymooon@naver.com>
+CLIENT -> SERVER: DATA
+CLIENT -> SERVER: Date: Sat, 10 Nov 2018 14:07:52 +0000
+CLIENT -> SERVER: To: yoochan <runawaymooon@naver.com>
+CLIENT -> SERVER: From: Root User <startshopkr@gmail.com>
+CLIENT -> SERVER: Reply-To: =?UTF-8?B?7Iqk7YOA7Yq47IO1?= <shoppd@shoppd.kr>, Root User <startshopkr@gmail.com>
+CLIENT -> SERVER: Subject: =?UTF-8?Q?[=EC=8A=A4=ED=83=80=ED=8A=B8=EC=83=B5]_Activate_your_account?=
+CLIENT -> SERVER: Message-ID: <ff8a26dd74d05ae3d8bbb6e28c424ea0@whit025-3312>
+CLIENT -> SERVER: X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+CLIENT -> SERVER: X-BuddyPress: 3.2.0
+CLIENT -> SERVER: X-BuddyPress-Type: core-user-registration
+CLIENT -> SERVER: MIME-Version: 1.0
+CLIENT -> SERVER: Content-Type: multipart/alternative;
+CLIENT -> SERVER: 	boundary="b1_ff8a26dd74d05ae3d8bbb6e28c424ea0"
+CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+CLIENT -> SERVER: 
+CLIENT -> SERVER: This is a multi-part message in MIME format.
+CLIENT -> SERVER: 
+CLIENT -> SERVER: --b1_ff8a26dd74d05ae3d8bbb6e28c424ea0
+CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+CLIENT -> SERVER: 
+CLIENT -> SERVER: Thanks for registering!
+CLIENT -> SERVER: 
+CLIENT -> SERVER: To complete the activation of your account, go to the following link and click on the 'Activate' button: https://shoppd.kr/%ed%99%9c%ec%84%b1%ed%99%94/GnBrWV6hoEhteRw4rOmY4jUhxIEXRepj/
+CLIENT -> SERVER: 
+CLIENT -> SERVER: If the 'Activation Key' field is empty, copy and paste the following into the field - GnBrWV6hoEhteRw4rOmY4jUhxIEXRepj
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: --b1_ff8a26dd74d05ae3d8bbb6e28c424ea0
+CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+CLIENT -> SERVER: 
+CLIENT -> SERVER: <!DOCTYPE html>
+CLIENT -> SERVER: <html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+CLIENT -> SERVER: <head>
+CLIENT -> SERVER: 	<meta charset="UTF-8">
+CLIENT -> SERVER: 	<meta name="viewport" content="width=device-width"> <!-- Forcing initial-scale shouldn't be necessary -->
+CLIENT -> SERVER: 	<meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Use the latest (edge) version of IE rendering engine -->
+CLIENT -> SERVER: 	<meta name="x-apple-disable-message-reformatting">  <!-- Disable auto-scale in iOS 10 Mail entirely -->
+CLIENT -> SERVER: 	<title></title> <!-- The title tag shows in email notifications, like Android 4.4. -->
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 	<!-- CSS Reset -->
+CLIENT -> SERVER: 	<style type="text/css">
+CLIENT -> SERVER: 		/* What it does: Remove spaces around the email design added by some email clients. */
+CLIENT -> SERVER: 		/* Beware: It can remove the padding / margin and add a background color to the compose a reply window. */
+CLIENT -> SERVER: 		html,
+CLIENT -> SERVER: 		body {
+CLIENT -> SERVER: 			Margin: 0 !important;
+CLIENT -> SERVER: 			padding: 0 !important;
+CLIENT -> SERVER: 			height: 100% !important;
+CLIENT -> SERVER: 			width: 100% !important;
+CLIENT -> SERVER: 		}
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 		/* What it does: Stops email clients resizing small text. */
+CLIENT -> SERVER: 		* {
+CLIENT -> SERVER: 			-ms-text-size-adjust: 100%;
+CLIENT -> SERVER: 			-webkit-text-size-adjust: 100%;
+CLIENT -> SERVER: 		}
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 		/* What is does: Centers email on Android 4.4 */
+CLIENT -> SERVER: 		div[style*="margin: 16px 0"] {
+CLIENT -> SERVER: 			margin: 0 !important;
+CLIENT -> SERVER: 		}
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 		/* What it does: Stops Outlook from adding extra spacing to tables. */
+CLIENT -> SERVER: 		table,
+CLIENT -> SERVER: 		td {
+CLIENT -> SERVER: 			mso-table-lspace: 0pt !important;
+CLIENT -> SERVER: 			mso-table-rspace: 0pt !important;
+CLIENT -> SERVER: 		}
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 		/* What it does: Fixes webkit padding issue. Fix for Yahoo mail table alignment bug. Applies table-layout to the first 2 tables then removes for anything nested deeper. */
+CLIENT -> SERVER: 		table {
+CLIENT -> SERVER: 			border-spacing: 0 !important;
+CLIENT -> SERVER: 			border-collapse: collapse !important;
+CLIENT -> SERVER: 			table-layout: fixed !important;
+CLIENT -> SERVER: 			Margin: 0 auto !important;
+CLIENT -> SERVER: 		}
+CLIENT -> SERVER: 		table table table {
+CLIENT -> SERVER: 			table-layout: auto;
+CLIENT -> SERVER: 		}
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 		/* What it does: Uses a better rendering method when resizing images in IE. */
+CLIENT -> SERVER: 		/* & manages img max widths to ensure content body images don't exceed template width. */
+CLIENT -> SERVER: 		img {
+CLIENT -> SERVER: 			-ms-interpolation-mode:bicubic;
+CLIENT -> SERVER: 			height: auto;
+CLIENT -> SERVER: 			max-width: 100%;
+CLIENT -> SERVER: 		}
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 		/* What it does: A work-around for email clients meddling in triggered links. */
+CLIENT -> SERVER: 		*[x-apple-data-detectors],  /* iOS */
+CLIENT -> SERVER: 		.x-gmail-data-detectors,    /* Gmail */
+CLIENT -> SERVER: 		.x-gmail-data-detectors *,
+CLIENT -> SERVER: 		.aBn {
+CLIENT -> SERVER: 			border-bottom: 0 !important;
+CLIENT -> SERVER: 			cursor: default !important;
+CLIENT -> SERVER: 			color: inherit !important;
+CLIENT -> SERVER: 			text-decoration: none !important;
+CLIENT -> SERVER: 			font-size: inherit !important;
+CLIENT -> SERVER: 			font-family: inherit !important;
+CLIENT -> SERVER: 			font-weight: inherit !important;
+CLIENT -> SERVER: 			line-height: inherit !important;
+CLIENT -> SERVER: 		}
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 		/* What it does: Prevents Gmail from displaying an download button on large, non-linked images. */
+CLIENT -> SERVER: 		.a6S {
+CLIENT -> SERVER: 			display: none !important;
+CLIENT -> SERVER: 			opacity: 0.01 !important;
+CLIENT -> SERVER: 		}
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 		/* If the above doesn't work, add a .g-img class to any image in question. */
+CLIENT -> SERVER: 			img.g-img + div {
+CLIENT -> SERVER: 			display: none !important;
+CLIENT -> SERVER: 		}
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 		/* What it does: Prevents underlining the button text in Windows 10 */
+CLIENT -> SERVER: 		.button-link {
+CLIENT -> SERVER: 			text-decoration: none !important;
+CLIENT -> SERVER: 		}
+CLIENT -> SERVER: 	</style>
+CLIENT -> SERVER: 
+CLIENT -> SERVER: </head>
+CLIENT -> SERVER: <body class="email_bg" width="100%" bgcolor="#F7F3F0" style="margin: 0; mso-line-height-rule: exactly;">
+CLIENT -> SERVER: <table cellpadding="0" cellspacing="0" border="0" height="100%" width="100%" bgcolor="#F7F3F0" style="border-collapse:collapse;" class="email_bg"><tr><td valign="top">
+CLIENT -> SERVER: 	<center style="width: 100%; text-align: left;">
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 		<!-- Visually Hidden Preheader Text : BEGIN -->
+CLIENT -> SERVER: 		<div style="display: none; font-size: 1px; line-height: 1px; max-height: 0px; max-width: 0px; opacity: 0; overflow: hidden; mso-hide: all; font-family: sans-serif;">
+CLIENT -> SERVER: 			
+CLIENT -> SERVER: 		</div>
+CLIENT -> SERVER: 		<!-- Visually Hidden Preheader Text : END -->
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 		<div style="max-width: 600px; margin: auto;" class="email-container">
+CLIENT -> SERVER: 			<!--[if mso]>
+CLIENT -> SERVER: 			<table role="presentation" cellspacing="0" cellpadding="0" border="0" width="600" align="center">
+CLIENT -> SERVER: 			<tr>
+CLIENT -> SERVER: 			<td>
+CLIENT -> SERVER: 			<![endif]-->
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 			<!-- Email Header : BEGIN -->
+CLIENT -> SERVER: 			<table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" width="100%" style="max-width: 600px; border-top: 7px solid #D84800" bgcolor="#F7F3F0" class="header_bg">
+CLIENT -> SERVER: 				<tr>
+CLIENT -> SERVER: 					<td style="text-align: center; padding: 15px 0; font-family: sans-serif; mso-height-rule: exactly; font-weight: bold; color: #000000; font-size: 30px" class="header_text_color header_text_size">
+CLIENT -> SERVER: 						스타트샵					</td>
+CLIENT -> SERVER: 				</tr>
+CLIENT -> SERVER: 			</table>
+CLIENT -> SERVER: 			<!-- Email Header : END -->
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 			<!-- Email Body : BEGIN -->
+CLIENT -> SERVER: 			<table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" bgcolor="#FFFFFF" width="100%" style="max-width: 600px; border-radius: 5px;" class="body_bg">
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 				<!-- 1 Column Text : BEGIN -->
+CLIENT -> SERVER: 				<tr>
+CLIENT -> SERVER: 					<td>
+CLIENT -> SERVER: 						<table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+CLIENT -> SERVER: 							<tr>
+CLIENT -> SERVER: 								<td style="padding: 20px; font-family: sans-serif; mso-height-rule: exactly; line-height: 24px; color: #555555; font-size: 15px" class="body_text_color body_text_size">
+CLIENT -> SERVER: 									<span style="font-weight: bold; font-size: 20px" class="welcome">Hi yoochan,</span>
+CLIENT -> SERVER: 									<hr color="#F7F3F0"><br>
+CLIENT -> SERVER: 									<p>Thanks for registering!</p>
+CLIENT -> SERVER: <p>To complete the activation of your account, go to the following link and click on the <strong>Activate</strong> button:<br />
+CLIENT -> SERVER: <a style="color: #D84800;" href="https://shoppd.kr/%ed%99%9c%ec%84%b1%ed%99%94/GnBrWV6hoEhteRw4rOmY4jUhxIEXRepj/">https://shoppd.kr/%ed%99%9c%ec%84%b1%ed%99%94/GnBrWV6hoEhteRw4rOmY4jUhxIEXRepj/</a></p>
+CLIENT -> SERVER: <p>If the 'Activation Key' field is empty, copy and paste the following into the field - GnBrWV6hoEhteRw4rOmY4jUhxIEXRepj</p>
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 								</td>
+CLIENT -> SERVER: 							</tr>
+CLIENT -> SERVER: 						</table>
+CLIENT -> SERVER: 					</td>
+CLIENT -> SERVER: 				</tr>
+CLIENT -> SERVER: 				<!-- 1 Column Text : BEGIN -->
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 			</table>
+CLIENT -> SERVER: 			<!-- Email Body : END -->
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 			<!-- Email Footer : BEGIN -->
+CLIENT -> SERVER: 			<br>
+CLIENT -> SERVER: 			<table role="presentation" cellspacing="0" cellpadding="0" border="0" align="left" width="100%" style="max-width: 600px; border-radius: 5px;" bgcolor="#F7F3F0" class="footer_bg">
+CLIENT -> SERVER: 				<tr>
+CLIENT -> SERVER: 					<td style="padding: 20px; width: 100%; font-size: 12px; font-family: sans-serif; mso-height-rule: exactly; line-height: 19px; text-align: left; color: #525252;" class="footer_text_color footer_text_size">
+CLIENT -> SERVER: 						
+CLIENT -> SERVER: 						<span class="footer_text">&copy; 2018 스타트샵</span>
+CLIENT -> SERVER: 						<br><br>
+CLIENT -> SERVER: 						<a href="https://shoppd.kr/%ed%9a%8c%ec%9b%90/yoochan/settings/notifications/" style="color: #D84800;text-decoration: underline;">unsubscribe</a>
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 											</td>
+CLIENT -> SERVER: 				</tr>
+CLIENT -> SERVER: 			</table>
+CLIENT -> SERVER: 			<!-- Email Footer : END -->
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 			<!--[if mso]>
+CLIENT -> SERVER: 			</td>
+CLIENT -> SERVER: 			</tr>
+CLIENT -> SERVER: 			</table>
+CLIENT -> SERVER: 			<![endif]-->
+CLIENT -> SERVER: 		</div>
+CLIENT -> SERVER: 	</center>
+CLIENT -> SERVER: </td></tr></table>
+CLIENT -> SERVER: </body>
+CLIENT -> SERVER: </html>
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: --b1_ff8a26dd74d05ae3d8bbb6e28c424ea0--
+CLIENT -> SERVER: 
+CLIENT -> SERVER: .
+CLIENT -> SERVER: QUIT
+CLIENT -> SERVER: EHLO whit025-3312
+CLIENT -> SERVER: AUTH LOGIN
+CLIENT -> SERVER: c3RhcnRzaG9wa3JAZ21haWwuY29t
+CLIENT -> SERVER: U2F2aW5nODUh
+CLIENT -> SERVER: MAIL FROM:<startshopkr@gmail.com>
+CLIENT -> SERVER: RCPT TO:<runawaymooon@naver.com>
+CLIENT -> SERVER: DATA
+CLIENT -> SERVER: Date: Sat, 10 Nov 2018 14:08:36 +0000
+CLIENT -> SERVER: To: yoochan <runawaymooon@naver.com>
+CLIENT -> SERVER: From: Root User <startshopkr@gmail.com>
+CLIENT -> SERVER: Reply-To: =?UTF-8?B?7Iqk7YOA7Yq47IO1?= <shoppd@shoppd.kr>, Root User <startshopkr@gmail.com>
+CLIENT -> SERVER: Subject: =?UTF-8?Q?[=EC=8A=A4=ED=83=80=ED=8A=B8=EC=83=B5]_Activate_your_account?=
+CLIENT -> SERVER: Message-ID: <d2e93e46e73605e604b01c77474a7524@whit025-3312>
+CLIENT -> SERVER: X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+CLIENT -> SERVER: X-BuddyPress: 3.2.0
+CLIENT -> SERVER: X-BuddyPress-Type: core-user-registration
+CLIENT -> SERVER: MIME-Version: 1.0
+CLIENT -> SERVER: Content-Type: multipart/alternative;
+CLIENT -> SERVER: 	boundary="b1_d2e93e46e73605e604b01c77474a7524"
+CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+CLIENT -> SERVER: 
+CLIENT -> SERVER: This is a multi-part message in MIME format.
+CLIENT -> SERVER: 
+CLIENT -> SERVER: --b1_d2e93e46e73605e604b01c77474a7524
+CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+CLIENT -> SERVER: 
+CLIENT -> SERVER: Thanks for registering!
+CLIENT -> SERVER: 
+CLIENT -> SERVER: To complete the activation of your account, go to the following link and click on the 'Activate' button: https://shoppd.kr/%ed%99%9c%ec%84%b1%ed%99%94/GnBrWV6hoEhteRw4rOmY4jUhxIEXRepj/
+CLIENT -> SERVER: 
+CLIENT -> SERVER: If the 'Activation Key' field is empty, copy and paste the following into the field - GnBrWV6hoEhteRw4rOmY4jUhxIEXRepj
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: --b1_d2e93e46e73605e604b01c77474a7524
+CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+CLIENT -> SERVER: 
+CLIENT -> SERVER: <!DOCTYPE html>
+CLIENT -> SERVER: <html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+CLIENT -> SERVER: <head>
+CLIENT -> SERVER: 	<meta charset="UTF-8">
+CLIENT -> SERVER: 	<meta name="viewport" content="width=device-width"> <!-- Forcing initial-scale shouldn't be necessary -->
+CLIENT -> SERVER: 	<meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Use the latest (edge) version of IE rendering engine -->
+CLIENT -> SERVER: 	<meta name="x-apple-disable-message-reformatting">  <!-- Disable auto-scale in iOS 10 Mail entirely -->
+CLIENT -> SERVER: 	<title></title> <!-- The title tag shows in email notifications, like Android 4.4. -->
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 	<!-- CSS Reset -->
+CLIENT -> SERVER: 	<style type="text/css">
+CLIENT -> SERVER: 		/* What it does: Remove spaces around the email design added by some email clients. */
+CLIENT -> SERVER: 		/* Beware: It can remove the padding / margin and add a background color to the compose a reply window. */
+CLIENT -> SERVER: 		html,
+CLIENT -> SERVER: 		body {
+CLIENT -> SERVER: 			Margin: 0 !important;
+CLIENT -> SERVER: 			padding: 0 !important;
+CLIENT -> SERVER: 			height: 100% !important;
+CLIENT -> SERVER: 			width: 100% !important;
+CLIENT -> SERVER: 		}
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 		/* What it does: Stops email clients resizing small text. */
+CLIENT -> SERVER: 		* {
+CLIENT -> SERVER: 			-ms-text-size-adjust: 100%;
+CLIENT -> SERVER: 			-webkit-text-size-adjust: 100%;
+CLIENT -> SERVER: 		}
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 		/* What is does: Centers email on Android 4.4 */
+CLIENT -> SERVER: 		div[style*="margin: 16px 0"] {
+CLIENT -> SERVER: 			margin: 0 !important;
+CLIENT -> SERVER: 		}
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 		/* What it does: Stops Outlook from adding extra spacing to tables. */
+CLIENT -> SERVER: 		table,
+CLIENT -> SERVER: 		td {
+CLIENT -> SERVER: 			mso-table-lspace: 0pt !important;
+CLIENT -> SERVER: 			mso-table-rspace: 0pt !important;
+CLIENT -> SERVER: 		}
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 		/* What it does: Fixes webkit padding issue. Fix for Yahoo mail table alignment bug. Applies table-layout to the first 2 tables then removes for anything nested deeper. */
+CLIENT -> SERVER: 		table {
+CLIENT -> SERVER: 			border-spacing: 0 !important;
+CLIENT -> SERVER: 			border-collapse: collapse !important;
+CLIENT -> SERVER: 			table-layout: fixed !important;
+CLIENT -> SERVER: 			Margin: 0 auto !important;
+CLIENT -> SERVER: 		}
+CLIENT -> SERVER: 		table table table {
+CLIENT -> SERVER: 			table-layout: auto;
+CLIENT -> SERVER: 		}
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 		/* What it does: Uses a better rendering method when resizing images in IE. */
+CLIENT -> SERVER: 		/* & manages img max widths to ensure content body images don't exceed template width. */
+CLIENT -> SERVER: 		img {
+CLIENT -> SERVER: 			-ms-interpolation-mode:bicubic;
+CLIENT -> SERVER: 			height: auto;
+CLIENT -> SERVER: 			max-width: 100%;
+CLIENT -> SERVER: 		}
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 		/* What it does: A work-around for email clients meddling in triggered links. */
+CLIENT -> SERVER: 		*[x-apple-data-detectors],  /* iOS */
+CLIENT -> SERVER: 		.x-gmail-data-detectors,    /* Gmail */
+CLIENT -> SERVER: 		.x-gmail-data-detectors *,
+CLIENT -> SERVER: 		.aBn {
+CLIENT -> SERVER: 			border-bottom: 0 !important;
+CLIENT -> SERVER: 			cursor: default !important;
+CLIENT -> SERVER: 			color: inherit !important;
+CLIENT -> SERVER: 			text-decoration: none !important;
+CLIENT -> SERVER: 			font-size: inherit !important;
+CLIENT -> SERVER: 			font-family: inherit !important;
+CLIENT -> SERVER: 			font-weight: inherit !important;
+CLIENT -> SERVER: 			line-height: inherit !important;
+CLIENT -> SERVER: 		}
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 		/* What it does: Prevents Gmail from displaying an download button on large, non-linked images. */
+CLIENT -> SERVER: 		.a6S {
+CLIENT -> SERVER: 			display: none !important;
+CLIENT -> SERVER: 			opacity: 0.01 !important;
+CLIENT -> SERVER: 		}
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 		/* If the above doesn't work, add a .g-img class to any image in question. */
+CLIENT -> SERVER: 			img.g-img + div {
+CLIENT -> SERVER: 			display: none !important;
+CLIENT -> SERVER: 		}
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 		/* What it does: Prevents underlining the button text in Windows 10 */
+CLIENT -> SERVER: 		.button-link {
+CLIENT -> SERVER: 			text-decoration: none !important;
+CLIENT -> SERVER: 		}
+CLIENT -> SERVER: 	</style>
+CLIENT -> SERVER: 
+CLIENT -> SERVER: </head>
+CLIENT -> SERVER: <body class="email_bg" width="100%" bgcolor="#F7F3F0" style="margin: 0; mso-line-height-rule: exactly;">
+CLIENT -> SERVER: <table cellpadding="0" cellspacing="0" border="0" height="100%" width="100%" bgcolor="#F7F3F0" style="border-collapse:collapse;" class="email_bg"><tr><td valign="top">
+CLIENT -> SERVER: 	<center style="width: 100%; text-align: left;">
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 		<!-- Visually Hidden Preheader Text : BEGIN -->
+CLIENT -> SERVER: 		<div style="display: none; font-size: 1px; line-height: 1px; max-height: 0px; max-width: 0px; opacity: 0; overflow: hidden; mso-hide: all; font-family: sans-serif;">
+CLIENT -> SERVER: 			
+CLIENT -> SERVER: 		</div>
+CLIENT -> SERVER: 		<!-- Visually Hidden Preheader Text : END -->
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 		<div style="max-width: 600px; margin: auto;" class="email-container">
+CLIENT -> SERVER: 			<!--[if mso]>
+CLIENT -> SERVER: 			<table role="presentation" cellspacing="0" cellpadding="0" border="0" width="600" align="center">
+CLIENT -> SERVER: 			<tr>
+CLIENT -> SERVER: 			<td>
+CLIENT -> SERVER: 			<![endif]-->
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 			<!-- Email Header : BEGIN -->
+CLIENT -> SERVER: 			<table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" width="100%" style="max-width: 600px; border-top: 7px solid #D84800" bgcolor="#F7F3F0" class="header_bg">
+CLIENT -> SERVER: 				<tr>
+CLIENT -> SERVER: 					<td style="text-align: center; padding: 15px 0; font-family: sans-serif; mso-height-rule: exactly; font-weight: bold; color: #000000; font-size: 30px" class="header_text_color header_text_size">
+CLIENT -> SERVER: 						스타트샵					</td>
+CLIENT -> SERVER: 				</tr>
+CLIENT -> SERVER: 			</table>
+CLIENT -> SERVER: 			<!-- Email Header : END -->
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 			<!-- Email Body : BEGIN -->
+CLIENT -> SERVER: 			<table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" bgcolor="#FFFFFF" width="100%" style="max-width: 600px; border-radius: 5px;" class="body_bg">
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 				<!-- 1 Column Text : BEGIN -->
+CLIENT -> SERVER: 				<tr>
+CLIENT -> SERVER: 					<td>
+CLIENT -> SERVER: 						<table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+CLIENT -> SERVER: 							<tr>
+CLIENT -> SERVER: 								<td style="padding: 20px; font-family: sans-serif; mso-height-rule: exactly; line-height: 24px; color: #555555; font-size: 15px" class="body_text_color body_text_size">
+CLIENT -> SERVER: 									<span style="font-weight: bold; font-size: 20px" class="welcome">Hi yoochan,</span>
+CLIENT -> SERVER: 									<hr color="#F7F3F0"><br>
+CLIENT -> SERVER: 									<p>Thanks for registering!</p>
+CLIENT -> SERVER: <p>To complete the activation of your account, go to the following link and click on the <strong>Activate</strong> button:<br />
+CLIENT -> SERVER: <a style="color: #D84800;" href="https://shoppd.kr/%ed%99%9c%ec%84%b1%ed%99%94/GnBrWV6hoEhteRw4rOmY4jUhxIEXRepj/">https://shoppd.kr/%ed%99%9c%ec%84%b1%ed%99%94/GnBrWV6hoEhteRw4rOmY4jUhxIEXRepj/</a></p>
+CLIENT -> SERVER: <p>If the 'Activation Key' field is empty, copy and paste the following into the field - GnBrWV6hoEhteRw4rOmY4jUhxIEXRepj</p>
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 								</td>
+CLIENT -> SERVER: 							</tr>
+CLIENT -> SERVER: 						</table>
+CLIENT -> SERVER: 					</td>
+CLIENT -> SERVER: 				</tr>
+CLIENT -> SERVER: 				<!-- 1 Column Text : BEGIN -->
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 			</table>
+CLIENT -> SERVER: 			<!-- Email Body : END -->
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 			<!-- Email Footer : BEGIN -->
+CLIENT -> SERVER: 			<br>
+CLIENT -> SERVER: 			<table role="presentation" cellspacing="0" cellpadding="0" border="0" align="left" width="100%" style="max-width: 600px; border-radius: 5px;" bgcolor="#F7F3F0" class="footer_bg">
+CLIENT -> SERVER: 				<tr>
+CLIENT -> SERVER: 					<td style="padding: 20px; width: 100%; font-size: 12px; font-family: sans-serif; mso-height-rule: exactly; line-height: 19px; text-align: left; color: #525252;" class="footer_text_color footer_text_size">
+CLIENT -> SERVER: 						
+CLIENT -> SERVER: 						<span class="footer_text">&copy; 2018 스타트샵</span>
+CLIENT -> SERVER: 						<br><br>
+CLIENT -> SERVER: 						<a href="https://shoppd.kr/%ed%9a%8c%ec%9b%90/yoochan/settings/notifications/" style="color: #D84800;text-decoration: underline;">unsubscribe</a>
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 											</td>
+CLIENT -> SERVER: 				</tr>
+CLIENT -> SERVER: 			</table>
+CLIENT -> SERVER: 			<!-- Email Footer : END -->
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 			<!--[if mso]>
+CLIENT -> SERVER: 			</td>
+CLIENT -> SERVER: 			</tr>
+CLIENT -> SERVER: 			</table>
+CLIENT -> SERVER: 			<![endif]-->
+CLIENT -> SERVER: 		</div>
+CLIENT -> SERVER: 	</center>
+CLIENT -> SERVER: </td></tr></table>
+CLIENT -> SERVER: </body>
+CLIENT -> SERVER: </html>
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: --b1_d2e93e46e73605e604b01c77474a7524--
+CLIENT -> SERVER: 
+CLIENT -> SERVER: .
+CLIENT -> SERVER: QUIT
+CLIENT -> SERVER: EHLO whit025-3312
+CLIENT -> SERVER: AUTH LOGIN
+CLIENT -> SERVER: c3RhcnRzaG9wa3JAZ21haWwuY29t
+CLIENT -> SERVER: U2F2aW5nODUh
+CLIENT -> SERVER: MAIL FROM:<startshopkr@gmail.com>
+CLIENT -> SERVER: RCPT TO:<runawaymooon@naver.com>
+CLIENT -> SERVER: DATA
+CLIENT -> SERVER: Date: Sat, 10 Nov 2018 14:12:04 +0000
+CLIENT -> SERVER: To: yoochan <runawaymooon@naver.com>
+CLIENT -> SERVER: From: Root User <startshopkr@gmail.com>
+CLIENT -> SERVER: Reply-To: =?UTF-8?B?7Iqk7YOA7Yq47IO1?= <shoppd@shoppd.kr>, Root User <startshopkr@gmail.com>
+CLIENT -> SERVER: Subject: =?UTF-8?Q?[=EC=8A=A4=ED=83=80=ED=8A=B8=EC=83=B5]_Activate_your_account?=
+CLIENT -> SERVER: Message-ID: <af2bee2fbe66516aeee12d08b158528d@whit025-3312>
+CLIENT -> SERVER: X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+CLIENT -> SERVER: X-BuddyPress: 3.2.0
+CLIENT -> SERVER: X-BuddyPress-Type: core-user-registration
+CLIENT -> SERVER: MIME-Version: 1.0
+CLIENT -> SERVER: Content-Type: multipart/alternative;
+CLIENT -> SERVER: 	boundary="b1_af2bee2fbe66516aeee12d08b158528d"
+CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+CLIENT -> SERVER: 
+CLIENT -> SERVER: This is a multi-part message in MIME format.
+CLIENT -> SERVER: 
+CLIENT -> SERVER: --b1_af2bee2fbe66516aeee12d08b158528d
+CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+CLIENT -> SERVER: 
+CLIENT -> SERVER: Thanks for registering!
+CLIENT -> SERVER: 
+CLIENT -> SERVER: To complete the activation of your account, go to the following link and click on the 'Activate' button: https://shoppd.kr/%ed%99%9c%ec%84%b1%ed%99%94/GnBrWV6hoEhteRw4rOmY4jUhxIEXRepj/
+CLIENT -> SERVER: 
+CLIENT -> SERVER: If the 'Activation Key' field is empty, copy and paste the following into the field - GnBrWV6hoEhteRw4rOmY4jUhxIEXRepj
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: --b1_af2bee2fbe66516aeee12d08b158528d
+CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+CLIENT -> SERVER: 
+CLIENT -> SERVER: <!DOCTYPE html>
+CLIENT -> SERVER: <html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+CLIENT -> SERVER: <head>
+CLIENT -> SERVER: 	<meta charset="UTF-8">
+CLIENT -> SERVER: 	<meta name="viewport" content="width=device-width"> <!-- Forcing initial-scale shouldn't be necessary -->
+CLIENT -> SERVER: 	<meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Use the latest (edge) version of IE rendering engine -->
+CLIENT -> SERVER: 	<meta name="x-apple-disable-message-reformatting">  <!-- Disable auto-scale in iOS 10 Mail entirely -->
+CLIENT -> SERVER: 	<title></title> <!-- The title tag shows in email notifications, like Android 4.4. -->
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 	<!-- CSS Reset -->
+CLIENT -> SERVER: 	<style type="text/css">
+CLIENT -> SERVER: 		/* What it does: Remove spaces around the email design added by some email clients. */
+CLIENT -> SERVER: 		/* Beware: It can remove the padding / margin and add a background color to the compose a reply window. */
+CLIENT -> SERVER: 		html,
+CLIENT -> SERVER: 		body {
+CLIENT -> SERVER: 			Margin: 0 !important;
+CLIENT -> SERVER: 			padding: 0 !important;
+CLIENT -> SERVER: 			height: 100% !important;
+CLIENT -> SERVER: 			width: 100% !important;
+CLIENT -> SERVER: 		}
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 		/* What it does: Stops email clients resizing small text. */
+CLIENT -> SERVER: 		* {
+CLIENT -> SERVER: 			-ms-text-size-adjust: 100%;
+CLIENT -> SERVER: 			-webkit-text-size-adjust: 100%;
+CLIENT -> SERVER: 		}
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 		/* What is does: Centers email on Android 4.4 */
+CLIENT -> SERVER: 		div[style*="margin: 16px 0"] {
+CLIENT -> SERVER: 			margin: 0 !important;
+CLIENT -> SERVER: 		}
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 		/* What it does: Stops Outlook from adding extra spacing to tables. */
+CLIENT -> SERVER: 		table,
+CLIENT -> SERVER: 		td {
+CLIENT -> SERVER: 			mso-table-lspace: 0pt !important;
+CLIENT -> SERVER: 			mso-table-rspace: 0pt !important;
+CLIENT -> SERVER: 		}
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 		/* What it does: Fixes webkit padding issue. Fix for Yahoo mail table alignment bug. Applies table-layout to the first 2 tables then removes for anything nested deeper. */
+CLIENT -> SERVER: 		table {
+CLIENT -> SERVER: 			border-spacing: 0 !important;
+CLIENT -> SERVER: 			border-collapse: collapse !important;
+CLIENT -> SERVER: 			table-layout: fixed !important;
+CLIENT -> SERVER: 			Margin: 0 auto !important;
+CLIENT -> SERVER: 		}
+CLIENT -> SERVER: 		table table table {
+CLIENT -> SERVER: 			table-layout: auto;
+CLIENT -> SERVER: 		}
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 		/* What it does: Uses a better rendering method when resizing images in IE. */
+CLIENT -> SERVER: 		/* & manages img max widths to ensure content body images don't exceed template width. */
+CLIENT -> SERVER: 		img {
+CLIENT -> SERVER: 			-ms-interpolation-mode:bicubic;
+CLIENT -> SERVER: 			height: auto;
+CLIENT -> SERVER: 			max-width: 100%;
+CLIENT -> SERVER: 		}
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 		/* What it does: A work-around for email clients meddling in triggered links. */
+CLIENT -> SERVER: 		*[x-apple-data-detectors],  /* iOS */
+CLIENT -> SERVER: 		.x-gmail-data-detectors,    /* Gmail */
+CLIENT -> SERVER: 		.x-gmail-data-detectors *,
+CLIENT -> SERVER: 		.aBn {
+CLIENT -> SERVER: 			border-bottom: 0 !important;
+CLIENT -> SERVER: 			cursor: default !important;
+CLIENT -> SERVER: 			color: inherit !important;
+CLIENT -> SERVER: 			text-decoration: none !important;
+CLIENT -> SERVER: 			font-size: inherit !important;
+CLIENT -> SERVER: 			font-family: inherit !important;
+CLIENT -> SERVER: 			font-weight: inherit !important;
+CLIENT -> SERVER: 			line-height: inherit !important;
+CLIENT -> SERVER: 		}
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 		/* What it does: Prevents Gmail from displaying an download button on large, non-linked images. */
+CLIENT -> SERVER: 		.a6S {
+CLIENT -> SERVER: 			display: none !important;
+CLIENT -> SERVER: 			opacity: 0.01 !important;
+CLIENT -> SERVER: 		}
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 		/* If the above doesn't work, add a .g-img class to any image in question. */
+CLIENT -> SERVER: 			img.g-img + div {
+CLIENT -> SERVER: 			display: none !important;
+CLIENT -> SERVER: 		}
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 		/* What it does: Prevents underlining the button text in Windows 10 */
+CLIENT -> SERVER: 		.button-link {
+CLIENT -> SERVER: 			text-decoration: none !important;
+CLIENT -> SERVER: 		}
+CLIENT -> SERVER: 	</style>
+CLIENT -> SERVER: 
+CLIENT -> SERVER: </head>
+CLIENT -> SERVER: <body class="email_bg" width="100%" bgcolor="#F7F3F0" style="margin: 0; mso-line-height-rule: exactly;">
+CLIENT -> SERVER: <table cellpadding="0" cellspacing="0" border="0" height="100%" width="100%" bgcolor="#F7F3F0" style="border-collapse:collapse;" class="email_bg"><tr><td valign="top">
+CLIENT -> SERVER: 	<center style="width: 100%; text-align: left;">
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 		<!-- Visually Hidden Preheader Text : BEGIN -->
+CLIENT -> SERVER: 		<div style="display: none; font-size: 1px; line-height: 1px; max-height: 0px; max-width: 0px; opacity: 0; overflow: hidden; mso-hide: all; font-family: sans-serif;">
+CLIENT -> SERVER: 			
+CLIENT -> SERVER: 		</div>
+CLIENT -> SERVER: 		<!-- Visually Hidden Preheader Text : END -->
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 		<div style="max-width: 600px; margin: auto;" class="email-container">
+CLIENT -> SERVER: 			<!--[if mso]>
+CLIENT -> SERVER: 			<table role="presentation" cellspacing="0" cellpadding="0" border="0" width="600" align="center">
+CLIENT -> SERVER: 			<tr>
+CLIENT -> SERVER: 			<td>
+CLIENT -> SERVER: 			<![endif]-->
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 			<!-- Email Header : BEGIN -->
+CLIENT -> SERVER: 			<table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" width="100%" style="max-width: 600px; border-top: 7px solid #D84800" bgcolor="#F7F3F0" class="header_bg">
+CLIENT -> SERVER: 				<tr>
+CLIENT -> SERVER: 					<td style="text-align: center; padding: 15px 0; font-family: sans-serif; mso-height-rule: exactly; font-weight: bold; color: #000000; font-size: 30px" class="header_text_color header_text_size">
+CLIENT -> SERVER: 						스타트샵					</td>
+CLIENT -> SERVER: 				</tr>
+CLIENT -> SERVER: 			</table>
+CLIENT -> SERVER: 			<!-- Email Header : END -->
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 			<!-- Email Body : BEGIN -->
+CLIENT -> SERVER: 			<table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" bgcolor="#FFFFFF" width="100%" style="max-width: 600px; border-radius: 5px;" class="body_bg">
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 				<!-- 1 Column Text : BEGIN -->
+CLIENT -> SERVER: 				<tr>
+CLIENT -> SERVER: 					<td>
+CLIENT -> SERVER: 						<table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+CLIENT -> SERVER: 							<tr>
+CLIENT -> SERVER: 								<td style="padding: 20px; font-family: sans-serif; mso-height-rule: exactly; line-height: 24px; color: #555555; font-size: 15px" class="body_text_color body_text_size">
+CLIENT -> SERVER: 									<span style="font-weight: bold; font-size: 20px" class="welcome">Hi yoochan,</span>
+CLIENT -> SERVER: 									<hr color="#F7F3F0"><br>
+CLIENT -> SERVER: 									<p>Thanks for registering!</p>
+CLIENT -> SERVER: <p>To complete the activation of your account, go to the following link and click on the <strong>Activate</strong> button:<br />
+CLIENT -> SERVER: <a style="color: #D84800;" href="https://shoppd.kr/%ed%99%9c%ec%84%b1%ed%99%94/GnBrWV6hoEhteRw4rOmY4jUhxIEXRepj/">https://shoppd.kr/%ed%99%9c%ec%84%b1%ed%99%94/GnBrWV6hoEhteRw4rOmY4jUhxIEXRepj/</a></p>
+CLIENT -> SERVER: <p>If the 'Activation Key' field is empty, copy and paste the following into the field - GnBrWV6hoEhteRw4rOmY4jUhxIEXRepj</p>
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 								</td>
+CLIENT -> SERVER: 							</tr>
+CLIENT -> SERVER: 						</table>
+CLIENT -> SERVER: 					</td>
+CLIENT -> SERVER: 				</tr>
+CLIENT -> SERVER: 				<!-- 1 Column Text : BEGIN -->
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 			</table>
+CLIENT -> SERVER: 			<!-- Email Body : END -->
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 			<!-- Email Footer : BEGIN -->
+CLIENT -> SERVER: 			<br>
+CLIENT -> SERVER: 			<table role="presentation" cellspacing="0" cellpadding="0" border="0" align="left" width="100%" style="max-width: 600px; border-radius: 5px;" bgcolor="#F7F3F0" class="footer_bg">
+CLIENT -> SERVER: 				<tr>
+CLIENT -> SERVER: 					<td style="padding: 20px; width: 100%; font-size: 12px; font-family: sans-serif; mso-height-rule: exactly; line-height: 19px; text-align: left; color: #525252;" class="footer_text_color footer_text_size">
+CLIENT -> SERVER: 						
+CLIENT -> SERVER: 						<span class="footer_text">&copy; 2018 스타트샵</span>
+CLIENT -> SERVER: 						<br><br>
+CLIENT -> SERVER: 						<a href="https://shoppd.kr/%ed%9a%8c%ec%9b%90/yoochan/settings/notifications/" style="color: #D84800;text-decoration: underline;">unsubscribe</a>
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 											</td>
+CLIENT -> SERVER: 				</tr>
+CLIENT -> SERVER: 			</table>
+CLIENT -> SERVER: 			<!-- Email Footer : END -->
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 			<!--[if mso]>
+CLIENT -> SERVER: 			</td>
+CLIENT -> SERVER: 			</tr>
+CLIENT -> SERVER: 			</table>
+CLIENT -> SERVER: 			<![endif]-->
+CLIENT -> SERVER: 		</div>
+CLIENT -> SERVER: 	</center>
+CLIENT -> SERVER: </td></tr></table>
+CLIENT -> SERVER: </body>
+CLIENT -> SERVER: </html>
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: --b1_af2bee2fbe66516aeee12d08b158528d--
+CLIENT -> SERVER: 
+CLIENT -> SERVER: .
+CLIENT -> SERVER: QUIT

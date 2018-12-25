@@ -1,0 +1,76 @@
+body.login {
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+body {
+  font-family: 'NotoKrL', sans-serif;
+}
+
+.login #login {
+  padding: 0px;
+}
+
+.login h1 a {
+    background-image: none;
+    height: 0px;
+}
+
+.login form {
+    padding: 26px 24px 56px;
+    border-radius: 5px;
+    box-shadow: none;
+}
+
+.login label {
+    line-height: 35px;
+}
+
+.login #backtoblog, .login #nav {
+  border: 1px solid #eff0f1;
+  border-radius: 20px;
+  margin: 0 0 1.5% 9.2%;
+  padding: 10px;
+  text-align: center;
+  width: 75%;
+  background: #eff0f1;
+}
+
+.login #backtoblog a:hover, .login #nav a:hover {
+  color: #555d66;
+}
+
+.login form .input, .login form input[type="checkbox"], .login input[type="text"] {
+  background: #fff;
+}
+
+input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
+    background-color: #F1F3F4;
+}
+
+.wp-core-ui .button-primary {
+    background: #679fff;
+    border-color: #679fff #679fff #679fff;
+    box-shadow: 0 0px 0 #006799;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: none;
+}
+
+.wp-core-ui .button-primary.focus, .wp-core-ui .button-primary.hover, .wp-core-ui .button-primary:focus, .wp-core-ui .button-primary:hover {
+    background: #679fff;
+    border-color: #679fff #679fff #679fff;
+}
+
+.login #login_error, .login .message, .login .success {
+    border-left: 0px solid #00a0d2;
+    border-left-color: rgb(0, 160, 210);
+    padding: 12px;
+    margin-left: 0;
+    margin-bottom: 20px;
+    background-color: #fff;
+    box-shadow: 0 0px 0px 0 rgba(0,0,0,.1);
+    text-align: center;
+}

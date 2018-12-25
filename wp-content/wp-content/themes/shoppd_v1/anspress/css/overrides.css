@@ -1,0 +1,54 @@
+/*--------------------------------------------------------------
+# anspress
+--------------------------------------------------------------*/
+
+.ap-row {
+    display: flex;
+}
+
+.ap-col-9 {
+    flex: 3;
+}
+
+.ap-col-3 {
+    flex: 0.5;
+}
+
+#anspress .ap-questions {
+    border-bottom: solid 1px #ffffff;
+}
+
+.main-navigation .ap-search-form {
+    width: 500px;
+    margin: 0 10px 0 10px;
+}
+
+.main-navigation .ap-search-form .ap-search-inner {
+    height: 36px;
+}
+
+.main-navigation .ap-search-form .ap-search-inner .ap-search-input {
+    background-color: #F1F3F4;
+    border: none;
+    max-width: 560px;
+}
+
+.main-navigation #ap-search-form .ap-search-input {
+    height: 16px;
+}
+
+.main-navigation #ap-search-form .ap-search-btn {
+    height: 24px;
+}
+
+.main-navigation #ap-search-form .ap-btn {
+    box-shadow: none;
+}
+
+.main-navigation .menu {
+    position: absolute;
+    right: 0px;
+}
+.main-navigation ul li {
+    padding-left: 20px;
+}
